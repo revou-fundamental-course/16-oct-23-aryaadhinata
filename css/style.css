@@ -88,6 +88,7 @@ nav button {
     justify-content: center;
     margin: 25px;
 }
+
 .beg {
     display: flex;
     margin-top: 10px;
@@ -143,4 +144,12 @@ button[type="submit"] {
     margin-top: 10px;
     border-radius: 5px;
     box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
