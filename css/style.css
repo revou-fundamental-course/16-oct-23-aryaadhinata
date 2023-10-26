@@ -88,3 +88,59 @@ nav button {
     justify-content: center;
     margin: 25px;
 }
+.beg {
+    display: flex;
+    margin-top: 10px;
+}
+
+.form-beg {
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.output-beg {
+    flex: 1;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+form {
+    width: 50%;
+    margin-left: 10%;
+    margin: 2% 10% 0 2%;
+}
+
+.form {
+    width: 100%;
+    border-spacing: 10px;
+    display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+input[type="text"], 
+[type="date"] {
+    padding: 5px;
+    width:  100% ;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    width: 200%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
